@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountInfoFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/user_name"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="118dp"
+                android:layout_height="128dp"
+                android:contentDescription="@string/icon"
+                android:src="@android:drawable/sym_def_app_icon"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/verified"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="132dp"
+                android:layout_marginTop="23dp" app:layout_constraintTop_toBottomOf="@+id/user_email_addres"/>
+        <TextView
+                android:id="@+id/user_email_addres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_email_address"
+                android:textSize="24sp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView" android:layout_marginTop="28dp"
+                app:layout_constraintTop_toBottomOf="@+id/user_name"/>
+
+        <Button
+                android:id="@+id/logout"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="192dp"
+                android:text="@string/log_out"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.0"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                android:layout_marginTop="64dp" app:layout_constraintTop_toBottomOf="@+id/imageView"
+                android:id="@+id/linearLayout">
+            <Button
+                    android:text="@string/sell_a_book"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" android:id="@+id/sellabook" android:textSize="18sp"/>
+            <Button
+                    android:text="@string/mark"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/mark" app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:textSize="18sp" app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintTop_toBottomOf="@+id/selling"/>
+            <Button
+                    android:text="@string/selling"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" tools:layout_editor_absoluteY="317dp"
+                    android:id="@+id/selling" app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0" android:textSize="18sp"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/editfile" app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:text="@string/edit_profile" android:textSize="18sp"
+                    app:layout_constraintTop_toBottomOf="@+id/mark"/>
+        </LinearLayout>
+        <Button
+                android:text="@string/verify_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/verify_btn" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="268dp" android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/user_email_addres" android:layout_marginBottom="2dp"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout" app:layout_constraintVertical_bias="0.0"
+                android:textSize="14sp"/>
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

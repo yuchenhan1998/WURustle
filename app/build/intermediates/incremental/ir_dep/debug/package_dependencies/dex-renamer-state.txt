@@ -1,0 +1,7 @@
+#Mon May 13 17:46:50 CDT 2019
+base.0=F\:\\college\\wustl\\semester6\\cse438\\usedbook_master\\cse438_final_rustle\\rustle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=F\:\\college\\wustl\\semester6\\cse438\\usedbook_master\\cse438_final_rustle\\rustle\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">988288386198-o6nipb465qvm6mjbq6b9uc6b4rnlpuut.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://washu-usedbook.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">988288386198</string>
+    <string name="google_api_key" translatable="false">AIzaSyAFg94_5tE48Le3DPwKq1Vr3i6AB8r5Y2g</string>
+    <string name="google_app_id" translatable="false">1:988288386198:android:4a4d518f09b00220</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAFg94_5tE48Le3DPwKq1Vr3i6AB8r5Y2g</string>
+    <string name="google_storage_bucket" translatable="false">washu-usedbook.appspot.com</string>
+    <string name="project_id" translatable="false">washu-usedbook</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "988288386198",
+    "firebase_url": "https://washu-usedbook.firebaseio.com",
+    "project_id": "washu-usedbook",
+    "storage_bucket": "washu-usedbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988288386198:android:4a4d518f09b00220",
+        "android_client_info": {
+          "package_name": "com.example.rustle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988288386198-7u02f0tgube7b35h15ab12a9ivnt63mk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rustle",
+            "certificate_hash": "5f209739138a18388d80f555a20145737d70978b"
+          }
+        },
+        {
+          "client_id": "988288386198-o6nipb465qvm6mjbq6b9uc6b4rnlpuut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFg94_5tE48Le3DPwKq1Vr3i6AB8r5Y2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988288386198-o6nipb465qvm6mjbq6b9uc6b4rnlpuut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

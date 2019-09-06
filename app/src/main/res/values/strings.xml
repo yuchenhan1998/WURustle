@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Rustle</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_subject">Subjects</string>
+    <string name="title_account">My Account</string>
+    <string name="no_connection">No Internet Connection</string>
+
+    <string name="icon">icon</string>
+    <string name="user_email_address">rustle@email.com</string>
+    <string name="log_out">Log Out</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="mark">Marks</string>
+    <string name="selling">My Selling</string>
+    <string name="sell_a_book">I Want to Sell a Book</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="user_name">Username</string>
+
+    <string name="book_name">Book Name</string>
+    <string name="isbn">ISBN</string>
+    <string name="book_price">Price</string>
+    <string name="available_date">Date</string>
+    <string name="book_subject">Subject</string>
+    <string name="book_course">Subject</string>
+    <string name="book_available">Available date:</string>
+    <string name="book_setPrice">%1$d$</string>
+    <string name="book_aUntil">Available time: \n %1$s</string>
+    <string name="book_setSubject">Subject: %1$s</string>
+    <string name="book_set_ISBN">ISBN:\n %1$s</string>
+
+    <string name="detail_mark">MARK</string>
+    <string name="detail_request">REQUEST</string>
+
+
+    <string name="book_publish">Publish!</string>
+    <string name="publish_cancel">Cancel</string>
+
+    <string name="phone_number">Phone Number</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="message_to_buyer">Message. e.g. book unused, book in good shape</string>
+    <string name="coursecode">course code separated by comma(e.g CSE417,CSE517)</string>
+
+    <string name="seller">Seller Information</string>
+    <string name="seller_name">Seller Name</string>
+    <string name="seller_email">Seller Email</string>
+    <string name="seller_set_email">Email: \n %1$s</string>
+
+    <string-array name="subjects_array">
+        <item>AFRICAN AND AFRICAN-AMERICAN STUDIES</item>
+        <item>CHEMISTRY</item>
+        <item>EAST ASIAN STUDIES</item>
+        <item>JAPANESE</item>
+        <item>MIND, BRAIN, AND BEHAVIOR</item>
+        <item>PHYSICS</item>
+        <item>RUSSIAN</item>,
+        <item>AMERICAN CULTURE STUDIES</item>
+        <item>CHILDREN\'s STUDIES</item>
+        <item>ECONOMICS</item>
+        <item>GERMAN</item>
+        <item>JEWISH, ISLAMIC AND MIDDLE EAST STUDIES</item>
+        <item>MOVEMENT SCIENCE</item>
+        <item>POLITICAL ECONOMY</item>
+        <item>RUSSIAN STUDIES</item>
+        <item>ANTHROPOLOGY</item>
+        <item>CHINESE</item>
+        <item>EDUCATION</item>
+        <item>GREEK</item>
+        <item>KOREAN</item>
+        <item>MUSIC</item>
+        <item>POLITICAL SCIENCE</item>
+        <item>SOCIOLOGY</item>
+        <item>ARABIC</item>
+        <item>CLASSICS</item>
+        <item>ENGLISH LITERATURE</item>
+        <item>HEBREW</item>
+        <item>LATIN</item>
+        <item>NURSING SCIENCE</item>
+        <item>PORTUGUESE</item>
+        <item>SPANISH</item>
+        <item>ARCHAEOLOGY</item>
+        <item>COLLEGE WRITING PROGRAM</item>
+        <item>ENVIRONMENTAL STUDIES</item>
+        <item>HINDI</item>
+        <item>LATIN AMERICAN STUDIES</item>
+        <item>PRAXIS</item>
+        <item>SPEECH AND HEARING</item>
+        <item>ART</item>
+        <item>COMPARATIVE LITERATURE</item>
+        <item>EUROPEAN STUDIES</item>
+        <item>HISTORY</item>
+        <item>LEGAL STUDIES</item>
+        <item>PSYCHOLOGY</item>
+        <item>ASIAN AMERICAN STUDIES</item>
+        <item>DANCE</item>
+        <item>FILM AND MEDIA STUDIES</item>
+        <item>LINGUISTICS</item>
+        <item>PHILOSOPHY</item>
+        <item>RELIGION AND POLITICS</item>
+        <item>URBAN STUDIES</item>
+        <item>BIOLOGY AND BIOMEDICAL SCIENCES</item>
+        <item>DRAMA</item>
+        <item>FIRST-YEAR PROGRAMS</item>
+        <item>INTERNATIONAL AND AREA STUDIES</item>
+        <item>MATHEMATICS AND STATISTICS</item>
+        <item>PHILOSOPHY-NEUROSCIENCE-PSYCHOLOGY</item>
+        <item>RELIGIOUS STUDIES</item>
+        <item>WOMEN, GENDER, AND SEXUALITY STUDIES</item>
+        <item>CENTER FOR THE HUMANITIES</item>
+        <item>EARTH AND PLANETARY SCIENCES</item>
+        <item>FRENCH</item>
+        <item>MANAGEMENT</item>
+        <item>ACCOUNTING</item>
+        <item>ADMINISTRATION</item>
+        <item>MANAGERIAL ECONOMICS</item>
+        <item>DATA ANALYTICS</item>
+        <item>MARKETING</item>
+        <item>FINANCE</item>
+        <item>BIOMEDICAL ENGINEERING</item>
+        <item>COMPUTER SCIENCE AND ENGINEERING</item>
+        <item>ELECTRICAL AND SYSTEMS ENGINEERING</item>
+        <item>ENERGY, ENVIRONMENTAL AND CHEMICAL ENGR</item>
+        <item>GENERAL ENGINEERING</item>
+        <item>MECHANICAL ENGINEERING</item>
+        <item>LAW</item>
+        <item>SOCIAL STUDIES</item>
+    </string-array>
+
+
+
+    <string-array name="grades_array">
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+        <item>Master</item>
+        <item>Doctor</item>
+    </string-array>
+
+    <string-array name="schools_array">
+        <item>Architecture</item>
+        <item>Art</item>
+        <item>Design and Visual Arts</item>
+        <item>Arts and Sciences</item>
+        <item>Business</item>
+        <item>Engineering</item>
+        <item>Law</item>
+        <item>Social Studies</item>
+    </string-array>
+
+
+
+</resources>
